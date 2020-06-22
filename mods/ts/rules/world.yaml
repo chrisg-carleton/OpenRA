@@ -20,6 +20,8 @@
 		SharesCell: true
 		TerrainSpeeds:
 			Clear: 90
+			Ice: 90
+			Cracked: 90
 			Road: 100
 			Bridge: 100
 			Rail: 90
@@ -33,6 +35,8 @@
 		SharesCell: true
 		TerrainSpeeds:
 			Clear: 90
+			Ice: 90
+			Cracked: 90
 			Road: 100
 			Bridge: 100
 			Rail: 90
@@ -48,6 +52,8 @@
 		JumpjetTransitionCost: 100
 		TerrainSpeeds:
 			Clear: 90
+			Ice: 90
+			Cracked: 90
 			Road: 100
 			Bridge: 100
 			Rail: 90
@@ -62,6 +68,8 @@
 		Crushes: crate
 		TerrainSpeeds:
 			Clear: 70
+			Ice: 70
+			Cracked: 70
 			Road: 100
 			Bridge: 100
 			Rail: 50
@@ -76,6 +84,8 @@
 		Crushes: wall, crate, infantry
 		TerrainSpeeds:
 			Clear: 70
+			Ice: 70
+			Cracked: 70
 			Road: 100
 			Bridge: 100
 			Rail: 50
@@ -90,6 +100,8 @@
 		Crushes: wall, crate, infantry
 		TerrainSpeeds:
 			Clear: 70
+			Ice: 70
+			Cracked: 70
 			Road: 100
 			Bridge: 100
 			Rail: 100
@@ -103,6 +115,8 @@
 		Crushes: wall, crate, infantry
 		TerrainSpeeds:
 			Clear: 70
+			Ice: 70
+			Cracked: 70
 			Road: 100
 			Bridge: 100
 			Rail: 100
@@ -117,6 +131,8 @@
 		Crushes: wall, crate, infantry
 		TerrainSpeeds:
 			Clear: 70
+			Ice: 70
+			Cracked: 70
 			Road: 100
 			Bridge: 100
 			Rail: 100
@@ -133,6 +149,8 @@
 		Crushes: wall, crate, infantry
 		TerrainSpeeds:
 			Clear: 100
+			Ice: 100
+			Cracked: 100
 			Road: 100
 			Bridge: 100
 			Rail: 100
@@ -147,6 +165,8 @@
 		Crushes: visceroid-fusing
 		TerrainSpeeds:
 			Clear: 90
+			Ice: 90
+			Cracked: 90
 			Road: 100
 			Bridge: 100
 			Rail: 80
@@ -160,6 +180,8 @@
 		Crushes: crate, infantry
 		TerrainSpeeds:
 			Clear: 90
+			Ice: 90
+			Cracked: 90
 			Road: 100
 			Bridge: 100
 			Rail: 80
@@ -172,6 +194,8 @@
 		Name: critter
 		TerrainSpeeds:
 			Clear: 90
+			Ice: 90
+			Cracked: 90
 			Road: 100
 			Bridge: 100
 			Rail: 80
@@ -371,6 +395,8 @@ World:
 		ShellmapRoot: MAINMENU_PRERELEASE_NOTIFICATION
 	ScriptTriggers:
 	TimeLimitManager:
+	IceLayer:
+	RenderIceState:
 
 EditorWorld:
 	Inherits: ^BaseWorld
