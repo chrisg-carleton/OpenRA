@@ -70,7 +70,8 @@ namespace OpenRA.Traits
 		public event Action<PPos> OnShroudChanged;
 
 		enum ShroudCellType : byte { Shroud, Fog, Visible }
-		class ShroudSource
+
+		struct ShroudSource
 		{
 			public readonly SourceType Type;
 			public readonly PPos[] ProjectedCells;
